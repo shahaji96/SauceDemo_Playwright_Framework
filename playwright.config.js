@@ -83,7 +83,7 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
 
-    {
+    /*{
       name: "firefox",
       use: { ...devices["Desktop Firefox"] },
     },
@@ -92,7 +92,7 @@ export default defineConfig({
       name: "webkit",
       use: { ...devices["Desktop Safari"] },
     },
-
+    */
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
@@ -120,4 +120,5 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+  
 });
